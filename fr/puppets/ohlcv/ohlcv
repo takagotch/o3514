@@ -1,0 +1,62 @@
+{
+  "//": "===",
+  "//": "sys ",
+  "//": "===",
+  "//": "exchange apiKey, secret settings",
+  "APIKEY": "YOUR_APIKEY",
+  "SECRET": "YOUR_SECRET",
+  
+  "//": "exchange symbol BTC",
+  "SYMBOL": "BTC/USD",
+  "INFO_SYMBOL": "XBTUSD",
+  "COIN_BASE": "BTC",
+  "COIN_QUOTE": "USD",
+  "//": "exchange price min candle 0.5USD",
+  "PRICE_UNIT": 0.5,
+
+  "//": "TestNet true/false",
+  "USE_TESTNET": true,
+
+  "//": "ticker, orderbook, position, balance, candle ",
+  "USE": {
+    "TICKER": false,
+    "ORDERBOOK": false,
+    "POSITION": false,
+    "BALANCE": false,
+    "CANDLE": true,
+  },
+
+  "//": "candle settle",
+  "CANDLE": {
+    "//": "candle 1m, 5m 1h, 1d",
+    "TIMEFRAME": "1m",
+    "SINCE": "UNIXTIME",
+    "//": null,
+    "//": "100, MAX:500",
+    "LIMIT": null,
+    "//": "True(New->Old), False(Old->New) False",
+    "REVERSE": false,
+    "//": "True(), False() True",
+    "PARTIAL": false,
+  },
+
+  "//": "boards settings",
+  "ORDERBOOK": {
+    "//": "sum 25 MAX",
+    "LIMIT": null
+  },
+
+  "//": "interval setting",
+  "INTERVAL": 60,
+  
+  "//": "discord URL",
+  "DISCORD_WEBHOOK_URL": "",
+
+  "//": "===",
+  "//": "user",
+  "//": "===",
+  "//": "buy sell size",
+  "LOT_SIZE": 50,
+}
+
+
